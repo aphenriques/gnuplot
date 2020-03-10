@@ -49,6 +49,6 @@ local timeSeries = {
 gnuplot.plot2dTimeSeries('2dTimeSeries.png', timeSeries)
 ```
 
-Output:
 ![2d.png](2d.png)
+
 ![2dTimeSeries.png](2dTimeSeries.png)
