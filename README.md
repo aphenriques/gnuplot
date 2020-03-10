@@ -19,7 +19,7 @@ Plots `data` ({{x, y}, ...}) to a png image file with `outputFileName` name.
 
 ## gnuplot.plot2dTimeSeries(outputFileName, data, [timeFormat])
 
-Plots `data` ({{x, y}, ...}) where 'x' is time string with `timeFormat` to a png image file with `outputFileName` name. The default value for `timeFormat` is `%Y%m%dT%H%M%S`.
+Plots `data` ({{x, y}, ...}) where 'x' is a time string with `timeFormat` to a png image file with `outputFileName` name. The default value for `timeFormat` is `%Y%m%dT%H%M%S`.
 
 # Example
 
