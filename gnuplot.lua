@@ -29,7 +29,7 @@ end
 function gnuplot.plot2d(outputFileName, data)
     gnuplot.execute {
         "set terminal png",
-        "set output '" .. outputFileName,
+        "set output '" .. outputFileName .. "'",
         "set key off",
         "plot '-' with lines",
         data
@@ -40,7 +40,7 @@ function gnuplot.plot2dTimeSeries(outputFileName, data, timeFormat)
     timeFormat = timeFormat or '%Y%m%dT%H%M%S'
     gnuplot.execute{
         "set terminal png",
-        "set output '" .. outputFileName,
+        "set output '" .. outputFileName .. "'",
         "set key off",
         "set xdata time",
         "set timefmt '" .. timeFormat .. "'",
