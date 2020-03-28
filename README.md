@@ -24,7 +24,7 @@ Plots `data` ({{x, y}, ...}) where 'x' is a time string with `timeFormat` to a p
 # Example
 
 ```lua
-package.path = package.path .. ';?.lua'
+package.path = package.path .. ';../?.lua'
 local gnuplot = require'gnuplot'
 
 local data = {
@@ -49,6 +49,6 @@ local timeSeries = {
 gnuplot.plot2dTimeSeries('2dTimeSeries.png', timeSeries)
 ```
 
-![2d.png](2d.png)
+![2d.png](example/2d.png)
 
-![2dTimeSeries.png](2dTimeSeries.png)
+![2dTimeSeries.png](example/2dTimeSeries.png)
